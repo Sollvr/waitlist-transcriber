@@ -1,6 +1,5 @@
 "use client";
 
-import { Metadata } from 'next'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import {
@@ -51,7 +50,7 @@ export default function WaitlistPage() {
 
         <section className="grid md:grid-cols-2 gap-12 mb-16">
           <div>
-            <h2 className="text-3xl font-semibold mb-6 text-purple-700">Unleash Your Video's Potential</h2>
+            <h2 className="text-3xl font-semibold mb-6 text-purple-700">Unleash Your Video&apos;s Potential</h2>
             <p className="text-gray-700 mb-6">
               Video Transcriber is a cutting-edge AI application designed to streamline your video production workflow. 
               Our advanced technology transcribes your videos, generates accurate SRT files, and helps you create 
@@ -112,7 +111,7 @@ export default function WaitlistPage() {
         </section>
 
         <section className="text-center">
-          <h2 className="text-3xl font-semibold mb-4 text-purple-700">Ready to Amplify Your Video's Reach?</h2>
+          <h2 className="text-3xl font-semibold mb-4 text-purple-700">Ready to Amplify Your Video&apos;s Reach?</h2>
           <p className="text-gray-700 mb-8">Join content creators worldwide who are eagerly waiting to revolutionize their video production</p>
           <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white">Get Early Access</Button>
         </section>
